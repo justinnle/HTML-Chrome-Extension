@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html style="width:200px">
+  <head>
+    <title>Set Page Color Popup</title>
+    <style>
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+    }
+
+    div{
+	  cursor:pointer;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 0.8em;
+      width: 30px;
+	  height: 30px;
+      margin-top: 1px;
+	  float:left;
+    }
+    div:hover {
+      border: 1px solid black;
+    }
+	
+	.template{
+		text-align:center;
+		font-family:sans-serif;
+		font-size:.8em;
+		width:50px;
+		height:30px;
+		margin:auto;
+		padding:1px;
+		vertical-align:middle;
+		float:right;
+	}
+	#dark{
+		color:#CEE3F6;
+		background-color:#170B3B;
+	}
+	#beach{
+		color:#F4FA58;
+		background-color:#01DFA5;
+		font-family:bold;
+	}
+    </style>
+    <script src="popup.js"></script>
+	<script src="script.js"></script>
+  </head>
+  <body "style=width:200px">
+		<div id="div">div</div>
+		<div id="p">p</div>
+		<div id="h1">h1</div>
+		<div id="h2">h2</div>
+		<div id="h3">h3</div>
+		<div id="h4">h4</div>
+		<div id="h5">h5</div>
+		<div id="h6">h6</div>
+		<div id="col1">col1</div>
+		<div id="col2">col2</div>
+		<div id="col3">col3</div>
+		<div id="col4">col4</div>
+		<textarea id="text" rows="1" cols="20"></textarea>
+		<!--<div id="size" style="float:right">Set Size</div>
+		<p>Columns</p>
+		<textarea style="float:right" id="colText" rows="1" cols="1"></textarea>
+		<p>Rows</p>
+		<textarea style="float:right" id="rowText" rows="1" cols="1"></textarea>-->
+		<p>Color</p>
+		<textarea id="color" rows="1" cols="7"></textarea>
+		<p>Background Color</p>
+		<textarea id="bgcolor" rows="1" cols="7"></textarea>
+		<p>Image URL</p>
+		<textarea id="imgText" rows="1" cols="20"></textarea>
+		<div id="putImg">Put Image</div>
+		<div class="template" id="dark">Dark</div>
+		<div class="template" id="beach">Beach</div>
+		
+  </body>
+</html>
